@@ -1,0 +1,12 @@
+@use '../color' as *;
+
+.root {
+  background-color: $bg-page;
+  color: $main-color;
+
+  &__wrapper {
+    max-width: 144rem;
+    margin: 0 auto;
+    padding: 0 5rem;
+  }
+}
