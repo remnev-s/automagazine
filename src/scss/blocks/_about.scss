@@ -15,8 +15,8 @@
   }
 
   &__text {
-    @include text(2rem, 4.2rem, 400);
-    padding: 4.1rem 5rem 4.5rem;
+    @include text(3rem, 4.2rem, 400);
+    padding: 4.1rem 5rem 8.2rem;
     border-right: 1px solid $main-color;
 
     @media (max-width: 768px) {
