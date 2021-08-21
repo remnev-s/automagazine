@@ -1,0 +1,19 @@
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 1 | @use 'color' as *;
+ *   | ^^^^^^^^^^^^^^^^^
+ *   '
+ *   /Volumes/Fusin/Users/rs/Desktop/automagazine/src/scss/blocks/_header.scss 1:1  @forward
+ *   /Volumes/Fusin/Users/rs/Desktop/automagazine/src/scss/_frameworks.scss 9:1     @use
+ *   /Volumes/Fusin/Users/rs/Desktop/automagazine/src/scss/main.scss 1:1            root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @use 'color' as *;\a   \2502  ^^^^^^^^^^^^^^^^^\a   \2575 \a   /Volumes/Fusin/Users/rs/Desktop/automagazine/src/scss/blocks/_header.scss 1:1  @forward\a   /Volumes/Fusin/Users/rs/Desktop/automagazine/src/scss/_frameworks.scss 9:1     @use\a   /Volumes/Fusin/Users/rs/Desktop/automagazine/src/scss/main.scss 1:1            root stylesheet";
+}
