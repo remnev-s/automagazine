@@ -15,7 +15,7 @@
   }
 
   @media (max-width: 460px) {
-    margin-bottom: 19.4rem;
+    margin-bottom: 18.4rem;
   }
 
   &__inner {
@@ -26,6 +26,10 @@
 
     @media (max-width: 768px) {
       margin-bottom: 7rem;
+    }
+
+    @media (max-width: 320px) {
+      margin-bottom: 0;
     }
   }
 
@@ -53,7 +57,7 @@
 
     @media (max-width: 460px) {
       @include text(3.8rem, 5rem, 400);
-      margin: 0 2rem 2rem;
+      margin: 0 2rem 2.5rem;
     }
   }
 
@@ -82,7 +86,7 @@
       bottom: -15rem;
     }
     @media (max-width: 460px) {
-      bottom: -13.2rem;
+      bottom: -12.3rem;
       padding: 0.1rem 9.5rem;
     }
     @media (max-width: 320px) {
@@ -101,7 +105,8 @@
 
     @media (max-width: 460px) {
       padding: 0 2rem;
-      margin-top: 2rem;
+      margin-top: 3rem;
+      height: 20.2rem;
     }
   }
 }

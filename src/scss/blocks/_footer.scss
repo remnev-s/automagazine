@@ -21,7 +21,7 @@
 
     @media (max-width: 460px) {
       padding: 2rem;
-      margin-bottom: 8rem;
+      margin-bottom: 7.7rem;
     }
   }
 
@@ -40,6 +40,7 @@
 
     @media (max-width: 460px) {
       @include text(1.4rem, 1.4rem, 400);
+      padding-bottom: 6rem;
     }
   }
 
