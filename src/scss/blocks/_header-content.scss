@@ -11,7 +11,7 @@
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
-    margin-bottom: 26.4rem;
+    margin-bottom: 25rem;
   }
 
   @media (max-width: 460px) {
@@ -23,6 +23,10 @@
     flex-direction: column;
     align-items: center;
     // margin-top: 2.5rem;
+
+    @media (max-width: 768px) {
+      margin-bottom: 7rem;
+    }
   }
 
   text-align: center;
@@ -43,7 +47,8 @@
     margin: 0 5rem 5rem;
 
     @media (max-width: 1000px) {
-      @include text(5.5rem, 6.3rem, 400);
+      // @include text(5.5rem, 6.3rem, 400);
+      max-width: 65rem;
     }
 
     @media (max-width: 460px) {
@@ -74,7 +79,7 @@
     @media (max-width: 768px) {
       position: absolute;
       // bottom: -10rem;
-      bottom: -16.2rem;
+      bottom: -15rem;
     }
     @media (max-width: 460px) {
       bottom: -13.2rem;
