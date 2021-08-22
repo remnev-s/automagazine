@@ -97,7 +97,7 @@
   }
 
   & .btn__prew {
-    background-image: url(../../img/arrow-left.svg);
+    background-image: url(../img/arrow-left.svg);
     margin-right: 3rem;
 
     @media (max-width: 460px) {
@@ -105,6 +105,6 @@
     }
   }
   & .btn__next {
-    background-image: url(../../img/arrow-right.svg);
+    background-image: url(../img/arrow-right.svg);
   }
 }
