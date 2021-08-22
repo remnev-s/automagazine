@@ -1,5 +1,5 @@
-@use 'color' as *;
-@use 'mixin' as *;
+@use 'helpers/color' as *;
+@use 'helpers/mixin' as *;
 
 .press {
   border-bottom: 1px solid $main-color;

@@ -1,4 +1,4 @@
-@use '../color' as *;
+@use 'helpers/color' as *;
 
 .root {
   background-color: $bg-page;
