@@ -11,6 +11,9 @@ const radioBtnFirst = document.querySelector('.radio-btn__first');
 const radioBtnSecond = document.querySelector('.radio-btn__second');
 const sliderLinks = document.querySelector('.press__slider-link');
 
+const formElement = document.querySelector('.subscribe');
+const subscribeBtn = document.querySelector('.subscribe__button');
+
 // SLIDER
 let i = 0;
 btnPrew.addEventListener('click', () => {
@@ -70,8 +73,6 @@ burgerMenu.addEventListener('click', () => {
 });
 
 // FORM
-const formElement = document.querySelector('.subscribe');
-const subscribeBtn = document.querySelector('.subscribe__button');
 function formSubmitHandler(evt) {
   evt.preventDefault(); // Эта строчка отменяет стандартную отправку формы.
   subscribeBtn.setAttribute('value', 'готово!');
