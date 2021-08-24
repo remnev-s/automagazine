@@ -6,7 +6,7 @@
   justify-content: space-between;
   align-items: center;
 
-  @media (max-width: 768px) {
+  @media (max-width: 940px) {
     grid-template-columns: 1fr;
     margin-bottom: 25rem;
   }

@@ -68,3 +68,12 @@ burgerMenu.addEventListener('click', () => {
     headerLogo.style.display = 'block';
   }
 });
+
+// FORM
+const formElement = document.querySelector('.subscribe');
+const subscribeBtn = document.querySelector('.subscribe__button');
+function formSubmitHandler(evt) {
+  evt.preventDefault(); // Эта строчка отменяет стандартную отправку формы.
+  subscribeBtn.setAttribute('value', 'готово!');
+}
+formElement.addEventListener('submit', formSubmitHandler);
