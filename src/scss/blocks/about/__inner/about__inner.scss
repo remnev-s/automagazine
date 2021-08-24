@@ -1,7 +1,6 @@
-.footer {
+.about__inner {
   display: grid;
-  grid-template-columns: 50% 1fr;
-  min-height: 31.7rem;
+  grid-template-columns: 50% 1fr 1fr;
 
   @media (max-width: 460px) {
     grid-template-columns: 1fr;

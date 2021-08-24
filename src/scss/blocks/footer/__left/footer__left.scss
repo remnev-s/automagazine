@@ -1,0 +1,16 @@
+@use 'helpers/color' as *;
+
+.footer__left {
+  border-right: 1px solid $main-color;
+  padding: 5rem;
+
+  @media (max-width: 768px) {
+    border-right: none;
+    padding-right: 0;
+  }
+
+  @media (max-width: 460px) {
+    padding: 2rem;
+    margin-bottom: 7.7rem;
+  }
+}

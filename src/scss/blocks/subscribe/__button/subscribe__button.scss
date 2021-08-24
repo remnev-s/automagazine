@@ -1,0 +1,7 @@
+@use 'helpers/color' as *;
+
+.subscribe__button {
+  cursor: pointer;
+  background-color: $main-color;
+  color: $bg-page;
+}

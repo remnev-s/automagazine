@@ -1,0 +1,22 @@
+@use 'helpers/color' as *;
+@use 'helpers/mixin' as *;
+
+.about__text {
+  @include text(3rem, 4.2rem, 400);
+  padding: 4.1rem 5rem 8.2rem;
+  border-right: 1px solid $main-color;
+
+  @media (max-width: 1065px) {
+    grid-column: 1/4;
+    border-right: none;
+    border-bottom: 1px solid $main-color;
+    font-size: 2.8rem;
+    padding-bottom: 4.2rem;
+  }
+
+  @media (max-width: 460px) {
+    @include text(1.6rem, 2.7rem, 400);
+    grid-column: 1/2;
+    padding: 1.8rem 2rem 1.8rem;
+  }
+}

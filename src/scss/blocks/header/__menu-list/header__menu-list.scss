@@ -1,0 +1,6 @@
+.header__menu-list {
+  list-style: none;
+  @media (max-width: 768px) {
+    display: none;
+  }
+}

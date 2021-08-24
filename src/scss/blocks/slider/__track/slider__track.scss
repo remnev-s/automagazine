@@ -1,0 +1,13 @@
+.slider__track {
+  display: flex;
+  width: 100%;
+  min-height: 54rem;
+
+  @media (max-width: 768px) {
+    border-right: none;
+  }
+
+  @media (max-width: 460px) {
+    min-height: 20.4rem;
+  }
+}

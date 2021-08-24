@@ -1,0 +1,15 @@
+@use 'helpers/color' as *;
+@use 'helpers/mixin' as *;
+
+.subscribe__textfield {
+  @include text(0.9rem, 1.8rem, 400);
+
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 1px solid $main-color;
+  color: $main-color;
+  display: block;
+  width: 100%;
+  max-width: 33.5rem;
+}

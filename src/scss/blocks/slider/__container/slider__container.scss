@@ -1,9 +1,9 @@
-.footer {
+.slider__container {
   display: grid;
   grid-template-columns: 50% 1fr;
-  min-height: 31.7rem;
+  overflow: hidden;
 
-  @media (max-width: 460px) {
+  @media (max-width: 768px) {
     grid-template-columns: 1fr;
   }
 }

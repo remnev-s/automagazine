@@ -7,8 +7,62 @@
 
 @forward 'blocks/root/root.scss';
 @forward 'blocks/header/header.scss';
+@forward 'blocks/header/__nav/header__nav.scss';
+@forward 'blocks/header/__menu/header__menu.scss';
+@forward 'blocks/header/__menu-list/header__menu-list.scss';
+@forward 'blocks/header/__burger-menu/header__burger-menu.scss';
+@forward 'blocks/header/__menu-link/header__menu-link.scss';
+@forward 'blocks/header/__logo/header__logo.scss';
+
 @forward 'blocks/header-content/header-content.scss';
+@forward 'blocks/header-content/__inner/header-content__inner.scss';
+@forward 'blocks/header-content/__subtitle/header-content__subtitle.scss';
+@forward 'blocks/header-content/__title/header-content__title.scss';
+@forward 'blocks/header-content/__btn/header-content__btn.scss';
+@forward 'blocks/header-content/__img/header-content__img.scss';
+
 @forward 'blocks/about/about.scss';
+@forward 'blocks/about/__inner/about__inner.scss';
+@forward 'blocks/about/__text/about__text.scss';
+@forward 'blocks/about/__parameter/about__parameter.scss';
+@forward 'blocks/about/__title/about__title.scss';
+
+@forward 'blocks/list/list.scss';
+@forward 'blocks/list/__inner/list__inner.scss';
+
 @forward 'blocks/slider/slider.scss';
+@forward 'blocks/slider/__container/slider__container.scss';
+@forward 'blocks/slider/__track/slider__track.scss';
+@forward 'blocks/slider/__img/slider__img.scss';
+@forward 'blocks/slider/__container-description/slider__container-description.scss';
+@forward 'blocks/slider/__container-title/slider__container-title.scss';
+
+@forward 'blocks/btn/btn.scss';
+@forward 'blocks/btn/__prew/btn__prew.scss';
+@forward 'blocks/btn/__next/btn__next.scss';
+
 @forward 'blocks/press/press.scss';
+@forward 'blocks/press/__container/press__container.scss';
+@forward 'blocks/press/__title/press__title.scss';
+@forward 'blocks/press/__slider/press__slider.scss';
+@forward 'blocks/press/__slider-text/press__slider-text.scss';
+@forward 'blocks/press/__slider-inner/press__slider-inner.scss';
+@forward 'blocks/press/__slider-btn/preess__slider-btn.scss';
+@forward 'blocks/press/__slider-link/press__slider-link.scss';
+
+@forward 'blocks/radio-btn/radio-btn.scss';
+@forward 'blocks/radio-btn/__first/radio-btn__first.scss';
+@forward 'blocks/radio-btn/__second/radio-btn__second.scss';
+
 @forward 'blocks/footer/footer.scss';
+@forward 'blocks/footer/__left/footer__left.scss';
+@forward 'blocks/footer/__left-title/footer__left-title.scss';
+@forward 'blocks/footer/__left-text/footer__left-text.scss';
+@forward 'blocks/footer/__right/footer__right.scss';
+@forward 'blocks/footer/__logo/footer__logo.scss';
+@forward 'blocks/footer/__right-copyright/footer__right-copyright.scss';
+
+@forward 'blocks/subscribe/subscribe.scss';
+@forward 'blocks/subscribe/__textfield-input/subscribe__textfield-input.scss';
+@forward 'blocks/subscribe/__textfield/subscribe__textfield.scss';
+@forward 'blocks/subscribe/__button/subscribe__button.scss';

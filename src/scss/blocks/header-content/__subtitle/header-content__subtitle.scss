@@ -1,0 +1,11 @@
+@use 'helpers/mixin' as *;
+
+.header-content__subtitle {
+  @include text(1.9rem, 2.8rem, 400);
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+
+  @media (max-width: 460px) {
+    @include text(1.1rem, 1.4rem, 400);
+  }
+}

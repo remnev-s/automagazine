@@ -1,0 +1,25 @@
+.subscribe__textfield-input {
+  padding: 0.7rem 1.1rem;
+  border: none;
+  outline: none;
+}
+input[name='firstname'],
+input[name='lastname'] {
+  border-bottom: none;
+}
+
+input[name='firstname'] {
+  border-right: none;
+}
+input[type='submit'] {
+  width: auto;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+
+  @media (max-width: 460px) {
+    padding: 0.7rem 2.1rem;
+  }
+  @media (max-width: 320px) {
+    padding: 0.7rem;
+  }
+}

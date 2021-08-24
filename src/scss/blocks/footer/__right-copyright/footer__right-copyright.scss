@@ -1,0 +1,10 @@
+@use 'helpers/mixin' as *;
+
+.footer__right-copyright {
+  @include text(1.3rem, 1.3rem, 400);
+  letter-spacing: 0.1rem;
+
+  @media (max-width: 460px) {
+    margin: 0 1rem;
+  }
+}

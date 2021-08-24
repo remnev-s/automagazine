@@ -1,0 +1,17 @@
+.slider__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+  @media (max-width: 768px) {
+    padding: 3.4rem 3.4rem 0;
+    height: 97%;
+  }
+  @media (max-width: 460px) {
+    padding: 2rem 2rem 0;
+  }
+
+  &:first-child {
+    display: block;
+  }
+}

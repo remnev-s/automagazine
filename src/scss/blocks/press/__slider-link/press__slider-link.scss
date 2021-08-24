@@ -1,0 +1,24 @@
+@use 'helpers/color' as *;
+@use 'helpers/mixin' as *;
+
+.press__slider-link {
+  @include animation();
+  @include text(1.9rem, 2.8rem, 400);
+
+  color: $main-color;
+  text-decoration: none;
+  border-radius: 50%;
+  border: 1px solid $main-color;
+  padding: 1.2rem 2.6rem;
+  text-decoration: none;
+
+  &:hover {
+    background-color: $main-color;
+    color: $bg-page;
+  }
+
+  @media (max-width: 460px) {
+    @include text(1.4rem, 2.8rem, 400);
+    padding: 0.7rem 2.2rem;
+  }
+}
