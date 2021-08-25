@@ -1,0 +1,9 @@
+@use 'helpers/mixin' as *;
+
+.list {
+  @include text(2.1rem, 3.2rem, 300);
+
+  @media (max-width: 460px) {
+    @include text(1.6rem, 2rem, 300);
+  }
+}

@@ -1,0 +1,12 @@
+@use 'helpers/color' as *;
+@use 'helpers/mixin' as *;
+
+.press__title {
+  @include text-head-blocks();
+  border-right: 1px solid $main-color;
+  padding: 5rem;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+}

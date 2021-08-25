@@ -1,0 +1,10 @@
+.press__slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5rem;
+
+  @media (max-width: 460px) {
+    padding: 2rem;
+  }
+}

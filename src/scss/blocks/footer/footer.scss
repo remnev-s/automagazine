@@ -1,0 +1,9 @@
+.footer {
+  display: grid;
+  grid-template-columns: 50% 1fr;
+  min-height: 31.7rem;
+
+  @media (max-width: 460px) {
+    grid-template-columns: 1fr;
+  }
+}

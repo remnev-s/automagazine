@@ -1,0 +1,24 @@
+@use 'helpers/color' as *;
+
+.about__parameter {
+  padding: 4.1rem 7.9rem 4.5rem 5rem;
+  min-width: 25rem;
+
+  @media (max-width: 768px) {
+    min-height: 50.5rem;
+  }
+
+  @media (max-width: 460px) {
+    padding: 2rem 2rem 2.5rem;
+    min-height: 0;
+  }
+
+  &:first-of-type {
+    border-right: 1px solid $main-color;
+
+    @media (max-width: 460px) {
+      border-right: none;
+      border-bottom: 1px solid $main-color;
+    }
+  }
+}

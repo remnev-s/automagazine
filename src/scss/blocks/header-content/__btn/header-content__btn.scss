@@ -1,0 +1,35 @@
+@use 'helpers/color' as *;
+@use 'helpers/mixin' as *;
+
+.header-content__btn {
+  @include animation();
+  @include text(1.5rem, 6rem, 300);
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+
+  border: none;
+  background-color: transparent;
+  color: $main-color;
+  border: 1px solid $main-color;
+  padding: 0.1rem 13.5rem;
+  margin-top: 3rem;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $main-color;
+    color: $bg-page;
+  }
+
+  @media (max-width: 940px) {
+    position: absolute;
+    // bottom: -10rem;
+    bottom: -15rem;
+  }
+  @media (max-width: 460px) {
+    bottom: -12.3rem;
+    padding: 0.1rem 9.5rem;
+  }
+  @media (max-width: 320px) {
+    padding: 0.1rem 9.5rem;
+  }
+}

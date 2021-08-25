@@ -5,9 +5,9 @@ const browserSync = require('browser-sync').create();
 const autoprefixer = require('gulp-autoprefixer');
 const imagemin = require('gulp-imagemin');
 const uglify = require('gulp-uglify-es').default;
-
 const del = require('del');
 
+// kick off the polyfill!
 function browsersync() {
   browserSync.init({
     server: {

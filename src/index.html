@@ -13,9 +13,9 @@
       <div class="header__nav">
         <ul class="header__menu">
           <li class="header__menu-list">
-            <a href="#" class="header__menu-link">факты</a>
-            <a href="#" class="header__menu-link">галерея</a>
-            <a href="#" class="header__menu-link">пресса</a>
+            <a href="#about" class="header__menu-link">факты</a>
+            <a href="#slider" class="header__menu-link">галерея</a>
+            <a href="#press" class="header__menu-link">пресса</a>
           </li>
         </ul>
         <div class="header__burger-menu">
@@ -25,26 +25,26 @@
       </div>
     </header>
 
-    <section class="header-content">
-      <div class="header-content__inner">
-        <p class="header-content__subtitle">volkswagen T1</p>
-        <h1 class="header-content__title">
-          Новая версия популярного микроавтобуса
-        </h1>
-        <p class="header-content__subtitle">С электро двигателем</p>
-        <button class="header-content__btn">Подробнее</button>
-      </div>
-      <img
-        src="./img/car-header.jpg"
-        alt="volkswagen T1"
-        class="header-content__img"
-      />
-    </section>
-
     <!-- MAIN -->
     <div class="main">
+      <section class="header-content">
+        <div class="header-content__inner">
+          <p class="header-content__subtitle">volkswagen T1</p>
+          <h1 class="header-content__title">
+            Новая версия популярного микроавтобуса
+          </h1>
+          <p class="header-content__subtitle">С электро двигателем</p>
+          <button class="header-content__btn">Подробнее</button>
+        </div>
+        <img
+          src="./img/car-header.jpg"
+          alt="volkswagen T1"
+          class="header-content__img"
+        />
+      </section>
+
       <!-- ABOUT -->
-      <section class="about">
+      <section id="about" class="about">
         <div class="about__inner">
           <p class="about__text">
             <strong> VW T1 Electro: </strong> Отделение Volkswagen Commercial
@@ -75,7 +75,7 @@
       </section>
 
       <!-- SLIDER -->
-      <section class="slider">
+      <section id="slider" class="slider">
         <div class="slider__container">
           <div class="slider__track">
             <!-- <div class="slider__item"> -->
@@ -111,7 +111,7 @@
       </section>
 
       <!-- PRESS -->
-      <section class="press">
+      <section id="press" class="press">
         <div class="press__container">
           <h2 class="press__title">Пресса</h2>
           <div class="press__slider">
@@ -152,27 +152,34 @@
           <form class="subscribe" name="form">
             <div class="subscribe__row">
               <input
-                class="textfield"
+                class="subscribe__textfield subscribe__textfield-input"
                 name="firstname"
                 type="text"
                 placeholder="Имя"
+                required
               />
               <input
-                class="textfield"
+                class="subscribe__textfield subscribe__textfield-input"
                 name="lastname"
                 type="text"
                 placeholder="Фамилия"
+                required
               />
             </div>
 
             <div class="subscribe__row">
               <input
-                class="textfield"
+                class="subscribe__textfield subscribe__textfield-input"
                 name="email"
                 type="email"
                 placeholder="Почта"
+                required
               />
-              <input type="submit" class="subscribe__button" value="Подписка" />
+              <input
+                type="submit"
+                class="subscribe__button subscribe__textfield-input"
+                value="Подписка"
+              />
             </div>
           </form>
         </div>

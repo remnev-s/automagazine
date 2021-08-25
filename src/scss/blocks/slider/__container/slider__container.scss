@@ -1,0 +1,9 @@
+.slider__container {
+  display: grid;
+  grid-template-columns: 50% 1fr;
+  overflow: hidden;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
