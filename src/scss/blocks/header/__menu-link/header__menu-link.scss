@@ -1,0 +1,23 @@
+@use 'helpers/color' as *;
+@use 'helpers/mixin' as *;
+
+.header__menu-link {
+  @include animation();
+  @include text(1.2rem, 1.6rem, 400) {
+    color: $main-color;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    &:not(:last-child) {
+      margin-right: 2rem;
+    }
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+  @media (max-width: 320px) {
+    font-size: 1.1rem;
+  }
+}

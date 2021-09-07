@@ -1,0 +1,12 @@
+.press__container {
+  min-height: 50rem;
+  display: grid;
+  grid-template-columns: 50% 1fr;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+  @media (max-width: 460px) {
+    min-height: 3rem;
+  }
+}

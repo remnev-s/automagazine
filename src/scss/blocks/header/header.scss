@@ -1,0 +1,14 @@
+@use 'helpers/color' as *;
+
+.header {
+  border-bottom: 1px solid $main-color;
+  margin-bottom: 15rem;
+
+  @media (max-width: 768px) {
+    margin-bottom: 10rem;
+  }
+
+  @media (max-width: 460px) {
+    margin-bottom: 6rem;
+  }
+}

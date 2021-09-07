@@ -1,0 +1,17 @@
+@use 'helpers/mixin' as *;
+
+.header-content__title {
+  @include text(6.5rem, 7.3rem, 400);
+  max-width: 80rem;
+  margin: 0 5rem 5rem;
+
+  @media (max-width: 1000px) {
+    // @include text(5.5rem, 6.3rem, 400);
+    max-width: 65rem;
+  }
+
+  @media (max-width: 460px) {
+    @include text(3.8rem, 5rem, 400);
+    margin: 0 2rem 2.5rem;
+  }
+}

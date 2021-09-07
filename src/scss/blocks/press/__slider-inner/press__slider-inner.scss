@@ -1,0 +1,9 @@
+.press__slider-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  @media (max-width: 460px) {
+    max-height: 3rem;
+  }
+}

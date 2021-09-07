@@ -1,0 +1,11 @@
+@use 'helpers/mixin' as *;
+
+.footer__left-text {
+  @include text(1.9rem, 2.8rem, 400);
+  padding-bottom: 6.4rem;
+
+  @media (max-width: 460px) {
+    @include text(1.4rem, 1.4rem, 400);
+    padding-bottom: 6rem;
+  }
+}
