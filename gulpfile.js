@@ -6,6 +6,7 @@ const autoprefixer = require('gulp-autoprefixer');
 const imagemin = require('gulp-imagemin');
 const uglify = require('gulp-uglify-es').default;
 const del = require('del');
+const surge = require('gulp-surge');
 
 // kick off the polyfill!
 function browsersync() {
@@ -91,6 +92,18 @@ function watching() {
 function cleanSrc() {
   return del('build');
 }
+
+// Deploy
+function surgeDeploy(done) {
+  return surge({
+    project: './build', // Path to your static build directory
+    domain: 'auto.surge.sh', // Your domain or Surge subdomain
+  });
+  done();
+}
+
+// Deploy command
+exports.deploy = series(surgeDeploy);
 
 exports.styles = styles;
 exports.watching = watching;
