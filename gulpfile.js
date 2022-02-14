@@ -97,7 +97,7 @@ function cleanSrc() {
 function surgeDeploy(done) {
   return surge({
     project: './build', // Path to your static build directory
-    domain: 'auto.surge.sh', // Your domain or Surge subdomain
+    domain: 'automagazine.surge.sh', // Your domain or Surge subdomain
   });
   done();
 }

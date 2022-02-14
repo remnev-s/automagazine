@@ -2,6 +2,7 @@
   display: flex;
   width: 100%;
   min-height: 54rem;
+  border-right: 1px solid #e1fd2c;
 
   @media (max-width: 768px) {
     border-right: none;
